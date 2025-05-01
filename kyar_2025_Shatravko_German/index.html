@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NovaRealty – Недвижимость вашей мечты</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="preloader"><div class="spinner"></div></div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+         <img src="images/logo.jpg" alt="Логотип NovaRealty">
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Открыть меню">
+        <span class="burger"></span>
+      </button>
+      <button id="themeToggle" aria-label="Переключить тему">🌙</button>
+      <nav class="main-nav" id="mainNav">
+        <ul>
+          <li><a  class="active" href="index.html">Главная</a></li>
+          <li><a href="properties.html">Объекты</a></li>
+          <li><a href="contact.html">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Найдите недвижимость своей мечты</h1>
+        <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M48 10H16C11.5817 10 8 13.5817 8 18V54C8 58.4183 11.5817 62 16 62H48C52.4183 62 56 58.4183 56 54V18C56 13.5817 52.4183 10 48 10Z" stroke="#3498db" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M24 26V38" stroke="#3498db" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M40 26V38" stroke="#3498db" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="32" cy="46" r="4" stroke="#3498db" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M51 6L43 14" stroke="#2ecc71" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="43" cy="6" r="2" fill="#2ecc71"/>
+          </svg>
+        <p>Лучшие предложения по всему миру</p>
+        <a href="properties.html" class="btn">Смотреть объекты</a>
+      </div>
+    </section>
+
+    <section class="blog-container container">
+      <h2>Последние статьи в блоге</h2>
+      <div class="blog-grid">
+        <article class="blog-card">
+          <img src="images/blog1.jpg" alt="Загородный дом">
+          <div class="blog-content">
+            <h3>Тренды в загородной архитектуре 2025</h3>
+            <p>Новые материалы и концепции для идеального загородного жилья, современные механизмы и концепции для идеальной жизни в лучшем жилье Галактики, подходы к реализации ваших идей...</p>
+            <button class="read-more" data-article="1">Читать далее →</button>
+          </div>
+        </article>
+        <article class="blog-card">
+          <img src="images/blog2.jpg" alt="Инвестиции">
+          <div class="blog-content">
+            <h3>Топ-5 ошибок при инвестировании</h3>
+            <p>Как избежать финансовых потерь при работе с недвижимостью, как заработать капитал и не бояться рисковать, делая это обдуманно...</p>
+            <button class="read-more" data-article="2">Читать далее →</button>
+          </div>
+        </article>
+        <article class="blog-card">
+          <img src="images/blog3.jpg" alt="Лофт">
+          <div class="blog-content">
+            <h3>Лучшие лайфхаки для лофта</h3>
+            <p>Секреты идеального оформления и зонирования пространства...</p>
+            <button class="read-more" data-article="3">Читать далее →</button>
+          </div>
+        </article>
+        <article class="blog-card">
+          <img src="images/blog4.jpg" alt="Умный дом">
+          <div class="blog-content">
+            <h3>Технологии умного дома</h3>
+            <p>Как автоматизировать жилье для комфорта и безопасности...</p>
+            <button class="read-more" data-article="4">Читать далее →</button>
+          </div>
+        </article>
+        <article class="blog-card">
+          <img src="images/blog5.jpg" alt="Эко-дом">
+          <div class="blog-content">
+            <h3>Экологичные дома: тренды 2025</h3>
+            <p>Материалы и решения для eco-friendly жилья...</p>
+            <button class="read-more" data-article="5">Читать далее →</button>
+          </div>
+        </article>
+        <article class="blog-card">
+          <img src="images/blog6.jpg" alt="Интерьер">
+          <div class="blog-content">
+            <h3>Интерьер: советы дизайнеров</h3>
+            <p>Как создать стильный и функциональный интерьер...</p>
+            <button class="read-more" data-article="6">Читать далее →</button>
+          </div>
+        </article>
+        <article class="blog-card">
+          <img src="images/blog7.jpg" alt="Ремонт">
+          <div class="blog-content">
+            <h3>Секреты бюджетного ремонта</h3>
+            <p>Как преобразить квартиру без больших затрат...</p>
+            <button class="read-more" data-article="7">Читать далее →</button>
+          </div>
+        </article>
+        <article class="blog-card">
+          <img src="images/blog8.jpg" alt="Услуги">
+          <div class="blog-content">
+            <h3>Услуги покупки в 2025</h3>
+            <p>Какие услуги актуальны при покупке дома...</p>
+            <button class="read-more" data-article="8">Читать далее →</button>
+          </div>
+        </article>
+        <article class="blog-card">
+          <img src="images/blog9.jpg" alt="Продажа">
+          <div class="blog-content">
+            <h3>Продажа имущества имеет смысл?</h3>
+            <p>Стоит ли продавать жилье в 2025...</p>
+            <button class="read-more" data-article="9">Читать далее →</button>
+          </div>
+        </article>
+      </div>
+    </section>
+    <div id="blogModal" class="modal" style="display: none;">
+      <div class="modal-content">
+        <span class="close" id="closeModal">&times;</span>
+        <h2 id="modalTitle">title</h2>
+        <div id="modalBody">blog</div>
+      </div>
+    </div>
+
+    <section class="advantages container" id="advantages">
+      <h2>Почему NovaRealty — лучший выбор</h2>
+      <div class="advantages-grid">
+        <div class="adv-card" data-delay="0">
+          <div class="adv-icon">+</div>
+          <h3>Эксклюзивные объекты</h3>
+          <p>Уникальные предложения только в нашем портфолио.</p>
+        </div>
+        <div class="adv-card" data-delay="150">
+          <div class="adv-icon">++</div>
+          <h3>Круглосуточная поддержка</h3>
+          <p>Мы на связи 24/7, чтобы помочь вам в любую минуту.</p>
+        </div>
+        <div class="adv-card" data-delay="300">
+          <div class="adv-icon">$</div>
+          <h3>Гибкие условия</h3>
+          <p>Индивидуальные программы финансирования и аренды.</p>
+        </div>
+        <div class="adv-card" data-delay="450">
+          <div class="adv-icon">$$</div>
+          <h3>Профессиональные заказы</h3>
+          <p>Наши заказы — продвинутые условия и поставки.</p>
+        </div>
+        <div class="adv-card" data-delay="450">
+          <div class="adv-icon">#</div>
+          <h3>Профессиональные эксперты</h3>
+          <p>Наши агенты — сертифицированные специалисты с опытом.</p>
+        </div>
+        
+        <div class="adv-card" data-delay="600">
+          <div class="adv-icon">##</div>
+          <h3>Широкий выбор недвижимости</h3>
+          <p>Обширная база данных объектов для любых потребностей и бюджета.</p>
+        </div>
+        
+        <div class="adv-card" data-delay="750">
+          <div class="adv-icon">%</div>
+          <h3>Выгодные условия</h3>
+          <p>Помощь в получении ипотеки и лучшие предложения на рынке.</p>
+        </div>
+        
+        <div class="adv-card" data-delay="900">
+          <div class="adv-icon">%%</div>
+          <h3>Полное сопровождение сделки</h3>
+          <p>От поиска до оформления документов — мы берем все на себя.</p>
+        </div>
+        
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="properties.html">Объекты</a></li>
+          <li><a href="contact.html">Контакты</a></li>
+        </ul>
+      </nav>
+      <p class="footer-copy">&copy; 2025 <strong>NovaRealty</strong>. Все права защищены.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

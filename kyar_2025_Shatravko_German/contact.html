@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NovaRealty – Контакты и команда</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+         <img src="images/logo.jpg" alt="Логотип NovaRealty"> 
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Открыть меню">
+        <span class="burger"></span>
+      </button>
+      <button id="themeToggle" aria-label="Переключить тему">🌙</button>
+  
+      <nav class="main-nav" id="mainNav">
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="properties.html">Объекты</a></li>
+          <li><a class="active" href="contact.html">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="contact" class="gradient-bg">
+      <h2>Свяжитесь с нами</h2>
+      <svg width="200" height="80" viewBox="0 0 200 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="10" y="20" width="20" height="40" fill="#95a5a6"/>
+        <rect x="40" y="30" width="20" height="30" fill="#7f8c8d"/>
+        <rect x="70" y="10" width="20" height="50" fill="#95a5a6"/>
+        <rect x="100" y="30" width="20" height="30" fill="#7f8c8d"/>
+      </svg>
+      
+      
+      <form id="contactForm">
+        <label>
+          Ваше имя:
+          <input type="text" name="name" required >
+        </label>
+        <label>
+          Ваш E-mail:
+          <input type="email" name="email" required >
+        </label>
+        <label>
+          Сообщение:
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+        <button type="submit" class="btn">Отправить</button>
+      </form>
+    </section>
+
+    <section id="team">
+      <h2>Наша команда</h2>
+      <div class="team-member gradient-bg">
+        <h3>Иван Иванов</h3>
+        <p><strong>Должность:</strong> Директор</p>
+        <p>Обладает более чем 10-летним опытом в сфере недвижимости, осуществляет руководство компанией и стратегическое планирование.</p>
+      </div>
+      <div class="team-member gradient-bg">
+        <h3>Мария Петрова</h3>
+        <p><strong>Должность:</strong> Менеджер по продажам</p>
+        <p>Эксперт в области продаж, отвечает за консультирование клиентов и заключение выгодных сделок.</p>
+      </div>
+      <div class="team-member gradient-bg">
+        <h3>Алексей Сидоров</h3>
+        <p><strong>Должность:</strong> Консультант по недвижимости</p>
+        <p>Помогает подбирать лучшие объекты, учитывая индивидуальные потребности клиентов.</p>
+      </div>
+      <div class="team-member gradient-bg">
+        <h3>Екатерина Смирнова</h3>
+        <p><strong>Должность:</strong> Юрист</p>
+        <p>Предоставляет юридические консультации, контролирует оформление документов и соблюдение законности сделок.</p>
+      </div>
+    </section>
+
+    <div class="gallery-c">
+      <div class="gallery-item-c">
+        <img src="images/1-c.jpg" alt="Продажа элитной недвижимости">
+        <div class="caption-c">92% объектов продано в течение 3 месяцев</div>
+      </div>
+      <div class="gallery-item-c">
+        <img src="images/2-c.jpg" alt="Успешные сделки недвижимости">
+        <div class="caption-c">Более 500 успешных сделок за год</div>
+      </div>
+      <div class="gallery-item-c">
+        <img src="images/3-c.jpg" alt="Квартиры и дома в продаже">
+        <div class="caption-c">85% клиентов нашли дом мечты</div>
+      </div>
+      <div class="gallery-item-c">
+        <img src="images/4-c.jpg" alt="Офисы и коммерческая недвижимость">
+        <div class="caption-c">30+ проданных коммерческих объектов</div>
+      </div>
+      <div class="gallery-item-c">
+        <img src="images/5-c.jpg" alt="Инвестиции в недвижимость">
+        <div class="caption-c">Инвестиционные проекты: ROI 18% в год</div>
+      </div>
+      <div class="gallery-item-c">
+        <img src="images/6-c.jpg" alt="Лучшие агентства недвижимости">
+        <div class="caption-c">Премия "Лучшее агентство 2024"</div>
+      </div>
+    </div>
+    
+    <div id="map-section">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.995836522665!2d25.280780316055218!3d54.68715538028756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd958b78f41b4d%3A0x46866d335fcf896a!2z0J_QtdGA0L7QvdC-0L3QvtC90L7Qs9C-0YDRg9C70LjRjw!5e0!3m2!1sru!2slt!4v1680700000000" allowfullscreen loading="lazy" title="Карта NovaRealty"></iframe>
+      <div class="map-marker"></div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="properties.html">Объекты</a></li>
+          <li><a href="contact.html">Контакты</a></li>
+        </ul>
+      </nav>
+      <p class="footer-copy">&copy; 2025 <strong>NovaRealty</strong>. Все права защищены.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
