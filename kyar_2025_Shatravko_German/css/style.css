@@ -117,7 +117,7 @@ a {
 }
 
 .hero {
-  background-color: #333;
+  background-color: #a7a7a7;
 }
 .hero h1 {
   font-size: 2.5rem;
@@ -925,6 +925,8 @@ section:last-child {
 
 h2 {
   color: #0056b3;
+  font-size: px-to-rem(32px);
+  color: #00004e;
 }
 
 ul {
@@ -1050,9 +1052,6 @@ textarea {
 .gradient-bg {
   background-size: 400% 400%;
   animation: gradientAnimation 10s ease infinite;
-}
-
-.gradient-bg {
   background: linear-gradient(135deg, rgb(0, 0, 54) 100%);
   color: #fff;
   padding: 20px;

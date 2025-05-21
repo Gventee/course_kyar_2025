@@ -44,7 +44,7 @@ a { text-decoration: none; }
 
 
  .hero {
-  background-color: #333;
+  background-color: #a7a7a7;
   h1{ font-size:2.5rem; margin-bottom:1rem;}
   .btn{ background:$color-accent; padding:.75rem 1.5rem; color:white; border-radius:4px; display:inline-block; &:hover{ opacity:0.9;} }
 }
@@ -623,6 +623,8 @@ section:last-child {
 }
 h2 {
   color: #0056b3;
+  font-size: px-to-rem(32px);
+   color: darken(rgb(0, 0, 103), 5%);
 }
 ul {
   list-style-type: disc;
@@ -733,8 +735,6 @@ textarea {
     .gradient-bg {
       background-size: 400% 400%;
       animation: gradientAnimation 10s ease infinite;
-    }
-    .gradient-bg {
       background: linear-gradient(135deg, rgb(0, 0, 54) 100%);
       color: #fff;
       padding: 20px;
@@ -883,3 +883,10 @@ textarea {
         transform: scale(1);
       }
     }
+    @function px-to-rem($px, $base: $font-size-base) {
+  $value: math.div($px, $base);
+  @return #{$value}rem;
+}
+@function darken($color, $amount) {
+  @return mix(#000, $color, $amount);
+}
